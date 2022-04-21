@@ -1,0 +1,19 @@
+.container-header {
+    background-color: #1f2937;
+
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+a {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+
+}
