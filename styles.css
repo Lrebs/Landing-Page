@@ -1,4 +1,4 @@
-.container-header {
+.header {
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -21,43 +21,18 @@ a {
     text-decoration: none;
 }
 
-.container-buttons {
+.content {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 32px;
-    
+    height: 300px;
 }
 
-
-.button-1 {
-    background-color: white;
-    border: 3px solid #3882f6;
-    border-radius: 16px;
-    padding: 36px;
-    height: 150px;
-    width: 150px;
-}
-
-.button-2 {
-    background-color: white;
-    border: 3px solid #3882f6;
-    border-radius: 16px;
-    padding: 36px;
-    height: 150px;
-    width: 150px;
-}
-
-.button-3 {
-    background-color: white;
-    border: 3px solid #3882f6;
-    border-radius: 16px;
-    padding: 36px;
-    height: 150px;
-    width: 150px;
-}
-
+.button-1,
+.button-2,
+.button-3,
 .button-4 {
     background-color: white;
     border: 3px solid #3882f6;
@@ -67,11 +42,31 @@ a {
     width: 150px;
 }
 
-.container-subtext-items {
+.content-subtext {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    padding: 0;
+    
+
+}
+
+.quote {
+    background: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background: #1f2937; 
+    height: 50px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;     
 }
 
