@@ -1,27 +1,33 @@
-.header {
-    background-color: #1f2937;
-    height: 300px;
+
+body {
+ font-size: 18px;
+ color: #e5e7eb;
+ background-color: #1f2937;
+ margin: 0;   
 }
 
-.header-logo {
-    color: #f9faf8;
-    font-weight: 24px;
-    margin: 30px 0 0 100px;
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-.nav-container {
+.navbar {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
     display: flex;
-    margin: 0;
-    padding: 0;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
 }
 
-li, a {
-    list-style: none;
+li  {
     text-decoration: none;
-    display: inline-block;
-    margin: 8px 0 0 10px;
-    justify-content: flex-end;
-    align-items: flex-end;
-    
 }
 
+.nav-logo {
+    font-size: x-large;
+}
