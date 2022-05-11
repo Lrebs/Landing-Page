@@ -95,12 +95,24 @@ h2 {
 .cards {
   display: flex;
   justify-content: center;
+  gap: 150px;
 }
 
-.card-1,
-.card-1,
-.card-1,
-.card-1 {
-  display: flex;
-  border: 4px solid #3882f6;
+.images {
+  width: 200px;
+}
+
+.images,
+p {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+img,
+.beach-1,
+.beach-2,
+.beach-3,
+.beach-4 {
+  border-radius: 10px;
+  box-shadow: 4px 8px rgba(0, 0, 0, 0.15);
 }
