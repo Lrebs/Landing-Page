@@ -36,13 +36,14 @@ ul {
 .hero-container {
   display: flex;
   background-color: #1f2937;
-  height: 230px;
+  height: 400px;
 }
 
 .hero-text {
   height: 180px;
   width: 500px;
   margin-left: 370px;
+  margin-top: 100px;
   padding: 10px;
   display: block;
   justify-content: center;
@@ -50,7 +51,7 @@ ul {
 }
 
 .hero-image {
-  border: 2px solid red;
+  margin: 50px 300px 50px 200px;
 }
 
 .hero-button {
@@ -59,6 +60,7 @@ ul {
   margin: 0;
   padding: 5px 15px;
   border-radius: 5px;
+  border: 0;
 }
 
 .hero-headline {
@@ -77,7 +79,7 @@ ul {
 }
 
 .section-1 {
-  height: 220px;
+  height: 300px;
 }
 
 .section-1-tittle {
@@ -115,4 +117,61 @@ img,
 .beach-4 {
   border-radius: 10px;
   box-shadow: 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.quote-section {
+  height: 300px;
+  background-color: #e5e7eb;
+  margin-top: 30px;
+  display: flex;
+}
+
+.quote-section,
+em {
+  font-size: 36px;
+  color: #1f2937;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  width: 50%;
+}
+
+.author-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section-4-container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  height: 200px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.btn {
+  height: 30px;
+  width: 100px;
+  color: white;
+  background-color: #3882f6;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.call-to-action,
+.btn {
+  justify-content: flex-end;
 }
